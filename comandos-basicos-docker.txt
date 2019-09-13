@@ -1,0 +1,21 @@
+Comandos comumente utilizados para administração de ambientes Docker:
+
+- docker pull: Fazer o download de uma imagem
+
+- docker image ls: Listar as imagens que existem localmente
+
+- docker run: Iniciar uma imagem
+
+- docker ps: Listar containers que estão rodando
+
+- docker logs: Visualizar os logs de um container
+
+- docker exec: Executar um comando dentro de algum container (MUITO ÚTIL!)
+
+- docker container rm/stop: Remover ou parar um container que esteja rodando
+
+- docker image rm: Remover uma determinada imagem
+
+- docker build: Construir uma imagem a partir de um Dockerfile
+
+- docker push: Subir uma imagem local para um determinado registry

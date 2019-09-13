@@ -1,0 +1,13 @@
+Comandos comumente utilizados em um Dockerfile:
+
+- FROM: Definir uma imagem base (importante para reutilizar código para criar diferentes imagens)
+
+- ADD/COPY: Adicionar/copiar arquivos para a imagem (ADD não funciona com arquivos compactados)
+
+- WORKDIR: Selecionar o diretório atual
+
+- RUN: Executar comandos dentro da imagem (Por exemplo, instalar a JDK)
+
+- EXPOSE: Expor portas de comunicação com o "mundo exterior"
+
+- ENTRYPOINT: Instrução que será executada ao iniciar o container
